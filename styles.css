@@ -1,0 +1,97 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0 !important;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #191919;
+    color: #fff;
+    font-size: 12px;
+}
+
+#connectFooter {
+    color: #fff;
+}
+
+.navbar {
+    background-color: #EEF3F6;
+}
+
+a, a:hover, a:active, a:visited { 
+    text-decoration: none !important; 
+    cursor: pointer;
+}
+
+#user {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#txt {
+    float: left;
+    margin-right: 16px;
+    padding-top: 12px;
+}
+
+#toggleLogin {
+    position: relative;
+    top: 12px;
+}
+
+#loginAlert {
+    display: none;
+}
+
+.time {
+    color: lightgrey;
+}
+
+.tweet {
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+}
+
+#tweetSuccess {
+    display: none;
+}
+
+#tweetFail {
+    display: none;
+}
+
+.active {
+    color: 	#428bca !important;
+}
+
+#compose {
+    font-size: 21px !important;
+}
+
+#profile-nav {
+    background-color: #F5F8FA;
+}
+
+#brder {
+    border-left: 1px solid #d3d3d3;
+}
+
+.profile-links {
+    color: #000;
+}
+
+.currentLink {
+    color: #428bca;
+}
+ 
+#activationcodefrm {
+    transition: all .4s ease;
+}
